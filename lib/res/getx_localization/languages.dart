@@ -8,7 +8,7 @@ class Languages extends Translations {
       'email_hint' : 'Enter email'
     },
     'bn_BD' : {
-      'emial_hint' : 'Email den'
+      'email_hint' : 'Email den'
     }
   };
 

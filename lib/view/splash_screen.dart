@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_project/data/app_exceptions.dart';
+import 'package:getx_project/res/assets/image_assets.dart';
 
 import '../utils/utils.dart';
 
@@ -19,6 +20,9 @@ class _SplashScreenState extends State<SplashScreen> {
     backgroundColor: Colors.green,
     title: Text('email_hint'.tr),
   ),
+      body: Image(
+        image: AssetImage(ImageAssets.splash_screen),
+      ),
     );
   }
 }
