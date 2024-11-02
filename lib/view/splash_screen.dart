@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:getx_project/data/app_exceptions.dart';
 
 import '../utils/utils.dart';
@@ -14,11 +15,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-  floatingActionButton: FloatingActionButton(
-      onPressed: (){
-        Utils.toastMessageCenter('My Loved Nani');
-        Utils.toastMessage('My Loved Nani');
-      }
+  appBar: AppBar(
+    backgroundColor: Colors.green,
+    title: Text('email_hint'.tr),
   ),
     );
   }
